@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MIRI® TL PATIENT</string>
+    <string name="home">HOME</string>
+    <string name="ivf">IVF PROCESS</string>
+    <string name="embryoincubation">EMBRYO INCUBATION</string>
+    <string name="embryoclassification">EMBRYO CLASSIFICATION</string>
+    <string name="timelapse">TIME LAPSE</string>
+    <string name="vid">Videos</string>
+    <string name="menu">MENU</string>
+</resources>

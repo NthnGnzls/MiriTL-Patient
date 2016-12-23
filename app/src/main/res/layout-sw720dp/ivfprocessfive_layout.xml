@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p5bg">
+
+    <include layout="@layout/ivfhomefive"/>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:gravity="center"
+            android:orientation="vertical">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_weight=".8"
+                android:weightSum="3">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.450"/>
+                <ImageView
+                    android:layout_weight=".1"
+                    android:id="@+id/imgPregnancy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/pregnancy"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.450"/>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"/>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/btnpfivePrevious1"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_previous"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/btnpfivePrevious2"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="PREVIOUS PROCESS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"/>
+            <ImageView
+                android:layout_weight=".6"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/p5"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.11"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

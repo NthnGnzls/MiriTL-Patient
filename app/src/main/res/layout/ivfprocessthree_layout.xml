@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p3bg">
+
+    <include layout="@layout/ivfhomepthree"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.4"
+            android:weightSum="2">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9"/>
+        <LinearLayout
+            android:layout_weight=".1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:id="@+id/lnFerEgg">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgFerEgg"
+                    android:background="@drawable/fertilizedegg"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FERTILIZED EGG"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lnTwoCell"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 - CELL STAGE"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgTwoCell"
+                    android:background="@drawable/twocell"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:id="@+id/lnFourcell"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgFourCell"
+                    android:background="@drawable/fourcell"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 - CELL STAGE"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:id="@+id/lnMorula"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MORULA"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <ImageView
+                    android:id="@+id/imgMorula"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/morula"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lnBlastula"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgBlastula"
+                    android:background="@drawable/blastula"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BLASTULA"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight=".6"
+            android:weightSum="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_weight=".9">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    android:weightSum="2">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.8"
+                        />
+                <ImageView
+                    android:layout_weight=".2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/incubation"
+                    android:id="@+id/imgpthreetext" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1.5"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnpthreePrevious1"
+                        android:layout_weight="1"
+                        android:layout_width="25dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/ic_previous"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/btnpthreePrevious2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PREVIOUS PROCESS"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1.1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:weightSum="3">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.475"/>
+                <ImageView
+                    android:layout_weight=".05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/miri"
+                    android:id="@+id/imgpthreeMiri" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.475"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1.5"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnpthreeNext1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEXT PROCESS"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"/>
+
+                    <ImageButton
+                        android:id="@+id/btnpthreeNext2"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="25dp"
+                        android:background="@mipmap/ic_nextp"
+                        android:layout_height="25dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

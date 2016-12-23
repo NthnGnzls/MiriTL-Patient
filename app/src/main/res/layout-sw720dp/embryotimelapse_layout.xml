@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timelapse">
+    <include layout="@layout/embryoclassification_box"/>
+    <include layout="@layout/embryoinncubationtimelapsehome_layout"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"/>
+
+            <ImageView
+                android:layout_weight=".9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/timel"
+                android:id="@+id/imageView5" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.2"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fertilizationtext"
+                android:id="@+id/imageView6" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight=".6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.7"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="TIME - LAPSE"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5">
+
+                <VideoView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/tlvid"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.2"
+                android:background="@drawable/eitext"
+                android:id="@+id/imageView4" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".9"/>
+
+            <ImageView
+                android:layout_weight=".6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/girl1"
+                android:id="@+id/imageView56" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.2"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/implantationtext"
+                android:id="@+id/imageView67" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
